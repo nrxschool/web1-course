@@ -57,3 +57,52 @@ Aula 10 - **Formulários e Entradas**
 - form, action e method.
 - input (text, password, email, number, etc.), textarea, select, checkbox, radio.
 - button (input type="submit" e input type="reset").
+
+
+## Módulo 4 - CSS: Estilo da Web
+
+Aula 11 - **Introdução ao CSS**
+
+- seletores, propriedades e valores.
+- inline, embedded e external.
+
+Aula 12 - **Cores e Fontes**
+
+- modelos de cores (RGB, HEX, HSL), nomeando cores, transparência.
+- font-family, font-size, font-weight, font-style.
+- color, text-align, text-decoration.
+
+Aula 13 - **Layouts e Posicionamento**
+
+- Box model: margin, border, padding, width, height.
+- Posicionamento: static, relative, absolute, fixed.
+- Layouts flexíveis: display flex, flex-direction, justify-content, align-items.
+
+Aula 14 - **Design Responsivo**
+
+- Dispositivos e tamanhos de tela.
+- Breakpoints, regras condicionais de estilo.
+- Mobile-first, ajuste de layouts e elementos.
+
+## Módulo 4 - Boas Práticas e Usabilidade
+
+Aula 15 - **Design Responsivo**
+
+- Princípios básicos de design: equilíbrio, contraste, alinhamento, repetição.
+- Elementos de design: tipografia, cores, imagens, espaçamento.
+
+Aula 16 - **Usabilidade e Experiência do Usuário (UX)**
+
+- Facilidade de uso, eficiência, satisfação do usuário.
+- Navegação intuitiva, feedback claro, consistência visual.
+- Tipos de testes de usabilidade e  ferramentas disponíveis.
+
+Aula 17 - **Mobile First**
+
+- Mobile First: princípios, benefícios, estratégias de design.
+- Exemplos de layouts responsivos e amigáveis para dispositivos móveis.
+
+Aula 18 - **Acessibilidade na Web**
+
+- Estrutura semântica, descrições de imagens, teclado acessível.
+- Ferramentas e recursos para avaliar e melhorar a acessibilidade do site.

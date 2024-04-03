@@ -37,6 +37,7 @@ Aula 6 - **Conceitos Avançados**
 - Conflitos de Merge
 - Rebase
 - Github, Issues, Pull Request e Review
+- Github Page: html<"hello world">
 
 ## Módulo 3 - HTML: Estrutura da Web
 

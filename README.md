@@ -59,6 +59,11 @@ Aula 10 - **Formulários e Entradas**
 - input (text, password, email, number, etc.), textarea, select, checkbox, radio.
 - button (input type="submit" e input type="reset").
 
+Aula 10.1 - **Site**
+- crud crud
+- api correios cep
+- api conversão monetária
+- github page
 
 ## Módulo 4 - CSS: Estilo da Web
 
@@ -85,6 +90,24 @@ Aula 14 - **Design Responsivo**
 - Breakpoints, regras condicionais de estilo.
 - Mobile-first, ajuste de layouts e elementos.
 
+Aula 14.1 - **app**
+- melhorar o projeto da aula 10.1
+- paint
+- pagina de portifolio
+- código http
+- ...
+
+## Módulo 3.5 - JavaScript: Interação na web
+
+
+Aula 3.5.1 - **app**
+- calculadora
+- todo list
+- previsão clima
+- gerador de qrcode
+- gerador de senhas aleatório
+- ...
+
 ## Módulo 4 - Boas Práticas e Usabilidade
 
 Aula 15 - **Design Responsivo**
@@ -107,3 +130,13 @@ Aula 18 - **Acessibilidade na Web**
 
 - Estrutura semântica, descrições de imagens, teclado acessível.
 - Ferramentas e recursos para avaliar e melhorar a acessibilidade do site.
+
+
+Aula 18.1 - **app**
+- forms de inscrição hackathons nearx
+
+## Módulo 5 - Backend: Servidor
+
+- express: CRUD
+- json/sqlite3/firebase
+- Mostrar todo ciclo de desenvolvimento, github -> código -> container -> deploy no cloud

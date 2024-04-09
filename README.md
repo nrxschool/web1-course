@@ -1,5 +1,8 @@
 # Curso web1
 
+
+## Projetos práticos
+
 1. Montar um plano de carreira
 2. Página de Hello World no github pages
 3. Página pessoal no github pages

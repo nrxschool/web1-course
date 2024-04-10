@@ -86,10 +86,6 @@ Aula 11 - **Como os Navegadores Funcionam**
 
 ## Módulo 4 - CSS: Estilo da Web
 
-```
-Projeto: Contador Regressivo Responsivo
-```
-
 Aula 12 - **Introdução ao CSS**
 
 - seletores, propriedades e valores.

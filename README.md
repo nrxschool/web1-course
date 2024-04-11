@@ -137,7 +137,7 @@ Aula 18 - **Comunicação com o Servidor**
 
 - Comunicação assíncrona
 - Fetch API, GraphQL, gRPC e WebSocket
-- Fetch e Axios
+- Fetch
 
 Aula 19 - **Introdução a Frameworks JavaScript**
 

@@ -172,12 +172,12 @@ Aula 18 - **Acessibilidade na Web**
 Aula 24 - **Introdução a Servidores Web e Node.js**
 
 - Conceitos básicos de servidores web
-- Instalando e configurando Node.js
+- Instalando e configurando Node.js, package.json, scripts, (postman, insominia, thunder)
 
 Aula 25 - **Criando um Servidor com Express**
 
 - Rotas, requisições e respostas
-- Middleware, tratamento de erros
+- Tratamento de erros, Middleware
 
 Aula 26 - **Express e Banco de Dados**
 

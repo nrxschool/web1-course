@@ -34,6 +34,11 @@ Aula 3 - **Instalando Ferramentas**
 - Nodejs
 - Pnpm
 
+```
+Prática:
+Montar um plano de carreira
+```
+
 ## Módulo 2 - Git/Github: Versionamento de Sistemas
 
 Aula 1 - **História dos Sistemas de Controle de Versão.**
@@ -52,7 +57,11 @@ Aula 3 - **Conceitos Avançados**
 - Rebase
 - Github, Issues, Pull Request e Review
 - README.md: Introdução ao Markdown
-- Github Page: html<"hello world">
+
+```
+Prática:
+Github Page: html<"hello world">
+```
 
 ## Módulo 3 - HTML: Estrutura da Web
 
@@ -84,6 +93,11 @@ Aula 5 - **Como os Navegadores Funcionam**
 - Diferenças entre navegadores.
 - Ferramentas de desenvolvedor embutidas em navegadores.
 
+```
+Prática
+Página pessoal usando github pages
+```
+
 ## Módulo 4 - CSS: Estilo da Web
 
 Aula 1 - **Introdução ao CSS**
@@ -108,6 +122,11 @@ Aula 4 - **Design Responsivo**
 - Dispositivos e tamanhos de tela.
 - Breakpoints, regras condicionais de estilo.
 - Mobile-first, ajuste de layouts e elementos.
+
+```
+Prática
+Página de status code HTTP como o httpcats
+```
 
 ## Módulo 5 - JavaScript: Interação na web
 
@@ -144,6 +163,11 @@ Aula 6 - **Introdução a Frameworks JavaScript**
 - Vue.js, React.js, Angular - uma visão geral
 - Escolhendo um framework
 
+```
+Prática
+Página totalmente Responsiva de "Em breve" com contador regresivo
+```
+
 ## Módulo 6 - Usabilidade na Web
 
 Aula 1 - **Design Responsivo**
@@ -166,6 +190,11 @@ Aula 4 - **Acessibilidade na Web**
 
 - Estrutura semântica, descrições de imagens, teclado acessível.
 - Ferramentas e recursos para avaliar e melhorar a acessibilidade do site.
+
+```
+Prática
+Usabilidade: Frontend inscrição do Hackathon (Forms)
+```
 
 ## Módulo 7 - Servidores: Serviços da Web
 
@@ -202,3 +231,8 @@ Aula 6 - **Deploy de Aplicações Web**
 - Preparando a aplicação para produção: CI/CD e Docker
 - Criar conta em algum cloud
 - Deploy na cloud
+
+```
+Prática
+Backend: Servidor para salvar inscrições do Hackathon (CRUD)
+```

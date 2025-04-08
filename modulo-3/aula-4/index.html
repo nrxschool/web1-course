@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+</head>
+
+<body>
+  <div>
+    <form action="/cadastro" method="post">
+
+      Nome
+      <input type="text" name="nome" id="nome"> <br>
+
+      <span>Email</span>
+      <input type="email" name="email" id="email"><br>
+
+      <label for="idade">Idade</label>
+      <input type="number" name="idade" id="idade"><br>
+
+      <label for="senha">Password</label>
+      <input type="password" name="senha" id="senha"><br>
+
+      <input type="checkbox" name="termo" id="termo"> Aceite os termos<br>
+
+
+      <input type="radio" name="nacionaliade" id="brasileira" value="brasileira"> Brasileira <br>
+      <input type="radio" name="nacionaliade" id="outra" value="outra"> Outra <br>
+
+      <label for="obersavacao">Observação</label>
+      <textarea name="obeservacao" id="obeservacao" cols="30" rows="3"></textarea> <br>
+
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </form>
+  </div>
+
+</body>
+
+</html>

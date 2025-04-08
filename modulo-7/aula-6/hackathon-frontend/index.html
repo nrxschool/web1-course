@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Em breve</title>
+</head>
+
+<body>
+  <header>
+    <h1>Em breve</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#subscription">Inscreva-se</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+  <main>
+
+    <section id="home">
+
+      <div class="column">
+        <p class="title">CONTAGEM REGRESSIVA...</p>
+        <p class="title">HACKATHON SOBRE TOKENIZAÇÃO</p>
+
+        <div class="countdown">
+          <span id="days">00</span> :
+          <span id="hours">00</span> :
+          <span id="minutes">00</span> :
+          <span id="seconds">00</span>
+        </div>
+
+        <p class="text">Inscreva-se para o evento</p>
+
+        <a href="#subscription" class="btn" value="Inscreva-se">Inscreva-se</a>
+      </div>
+
+      <div class="column">
+        <picture>
+          <source media="(max-width: 480px)" srcset="/img/imagem_610x456.png" />
+          <source media="(min-width: 481px)" srcset="/img/imagem_1220x912.png" />
+          <img src="/img/imagem_1220x912.png" alt="Home em pé ao lado de uma blockchain" />
+        </picture>
+      </div>
+
+    </section>
+
+    <section id="subscription">
+      <h2>Inscreva-se</h2>
+      <div class="message">
+        <div class="success">
+          <span>Inscrição realizada com sucesso</span>
+        </div>
+
+      </div>
+      <form action="/subscription" method="get">
+        <div>
+          <label for="name">Nome (Obrigatório)</label>
+          <input type="text" name="name" id="name">
+          <small></small>
+        </div>
+
+        <div>
+          <label for="email">Email (Obrigatório)</label>
+          <input type="email" name="email" id="email">
+          <small></small>
+        </div>
+
+        <div>
+          <label for="phone">Telefone (Obrigatório)</label>
+          <input type="tel" name="phone" id="phone">
+          <small></small>
+        </div>
+
+        <div class="action">
+          <button type="submit" class="btn">Enviar</button>
+        </div>
+      </form>
+
+
+    </section>
+
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

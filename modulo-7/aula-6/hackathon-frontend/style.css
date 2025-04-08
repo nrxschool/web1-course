@@ -1,0 +1,201 @@
+:root {
+  font-size: 18px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 26px;
+  background-color: #FFF;
+}
+
+
+header {
+  color: #6C63FF;
+  text-align: center;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: .7rem;
+}
+
+#home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: dense;
+  gap: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - 40px);
+  padding: 20px;
+  text-align: center;
+
+}
+
+.title {
+  font-size: 1rem;
+  color: #6C63FF;
+  font-weight: 800;
+}
+
+.text {
+  font-size: 0.8rem;
+  color: #686868;
+}
+
+.btn {
+  background-color: #6C63FF;
+  border: none;
+  padding: 10px 14px;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #574ffc;
+}
+
+.countdown {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  color: #6C63FF;
+}
+
+#subscription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+
+
+form {
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  color: #574ffc;
+  font-size: .8rem;
+
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  height: 65px;
+}
+
+form div small {
+  font-size: .6rem;
+  color: #ff0000;
+}
+
+[aria-invalid="true"] {
+  outline: solid red;
+}
+
+input {
+  height: 26px;
+  font-size: 12px;
+  border: solid #6C63FF 1px;
+  border-radius: 10px;
+  margin: 2px 0;
+}
+
+input:focus {
+  border: solid #6C63FF 1.4px;
+  outline: none;
+}
+
+.message {
+  height: 60px;
+}
+
+.success {
+  font-size: .8rem;
+  color: #005a00;
+  border: 1px solid;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+@media only screen and (max-width: 480px) {
+  :root {
+    font-size: 14px;
+  }
+
+  #home {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .column {
+    height: auto;
+  }
+
+  #home .column:first-of-type {
+    order: 2;
+  }
+
+  .countdown {
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 0px;
+  }
+
+  img {
+    max-width: 180px;
+  }
+
+  #subscription {
+    margin-top: 60px;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .title {
+    font-size: .7rem;
+  }
+
+  .countdown {
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: 0px;
+  }
+}

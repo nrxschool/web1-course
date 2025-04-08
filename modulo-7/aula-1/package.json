@@ -1,0 +1,12 @@
+{
+  "name": "aula-1",
+  "version": "1.0.0",
+  "description": "Projeto inicial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node main.js"
+  },
+  "author": "Adilson Oliveira",
+  "license": "ISC"
+}

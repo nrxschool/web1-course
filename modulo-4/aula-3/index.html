@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layouts e Posicionamento</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #2c2c2c;
+      height: 1024px;
+    }
+
+    .box {
+      width: 160px;
+      height: 160px;
+      border-color: #ff0000;
+      border-style: solid;
+      margin: 20px;
+      padding: 10px;
+      background-color: #ffff;
+    }
+
+    .box-posicionamento {
+      width: 80px;
+      height: 20px;
+    }
+
+    .static {
+      position: static;
+      background-color: #ff0000;
+    }
+
+    .relative {
+      position: relative;
+      background-color: #00ff00;
+      left: 80px;
+      top: 30px;
+    }
+
+    .absolute {
+      position: absolute;
+      background-color: #ff00ff;
+      top: 20px;
+      right: 0;
+    }
+
+    .fixed {
+      position: fixed;
+      background-color: #ffff00;
+      bottom: 10px;
+      right: 10px;
+    }
+
+    .conteudo-flex {
+      height: 200px;
+      display: flex;
+      margin: 20px;
+      flex-direction: column;
+      border: solid #0000ff 1px;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .item-flex {
+      width: 20px;
+      height: 20px;
+      background-color: #9345FF;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris feugiat purus eu vulputate eleifend. Fusce luctus
+      accumsan sapien nec consequat.
+    </p>
+  </div>
+
+  <!-- <div class="box-posicionamento static">Stático</div>
+  <div class="box-posicionamento relative">Relativo</div>
+  <div class="box-posicionamento absolute">Absoluto</div>
+  <div class="box-posicionamento fixed">Fixed</div> -->
+
+  <div class="conteudo-flex">
+    <div class="item-flex"></div>
+    <div class="item-flex"></div>
+  </div>
+
+</body>
+
+</html>

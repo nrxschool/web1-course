@@ -1,0 +1,29 @@
+/* h1 {
+      color: red;
+      background-color: yellow;
+    }  */
+.cabecalho {
+  color: gray;
+}
+
+#cabecalho {
+  color: red;
+}
+
+
+.bold {
+  font-weight: bold;
+}
+
+.mouse:hover {
+  font-weight: bold;
+  color: blue;
+}
+
+p::first-line {
+  background-color: yellowgreen;
+}
+
+p::first-letter {
+  font-size: 35px;
+}

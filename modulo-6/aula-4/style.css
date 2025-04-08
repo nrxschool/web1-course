@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+nav,
+main,
+footer {
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Estilos responsivos */
+@media only screen and (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+}
